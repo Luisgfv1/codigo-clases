@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h2>Tablas Simples</h2>
+        <table border="2px">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Cursos</th>
+                    <th>Duración</th>
+                    <th>Categoría</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Programación de Python</td>
+                    <td>300 horas</td>
+                    <td>Backend</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Adobe Ilustrator</td>
+                    <td>200 horas</td>
+                    <td>UX/UD</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <br>
+
+    <section>
+        <table border="2px">
+            <thead>
+                <tr>
+                    <th>ítem</th>
+                    <th>cantidad</th>
+                    <th>descripción</th>
+                    <th>P.U.</th>
+                    <th>P. TOTAL</th>
+                </tr>
+            </thead>
+            <Tbody>
+                <tr>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>mouse</td>
+                    <td>30.00</td>
+                    <td>300.00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>C. HDMI</td>
+                    <td>20.00</td>
+                    <td>100.00</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>usb 1Tb</td>
+                    <td>70.00</td>
+                    <td>70.00</td>
+                </tr>
+            </Tbody>
+            <tfoot>
+                <tr>
+                    <td>-</td>
+                    <td>16</td>
+                    <td>Total</td>
+                    <td></td>
+                    <td>470.00</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <br/>
+    <section>
+        <h2>Tablas con columnas Combinadas</h2>
+        <table border="2px">
+            <thead>
+                <tr>
+                    <th>cabecera 1</th>
+                    <th>cabecera 2</th>
+                    <th>cabecera 3</th>
+                    <th>cabecera 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Contenido 1</td>
+                    <td colspan="2">Contenido 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">TOTAL</td>
+                    <td>56</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <br/>
+    <section>
+        <h2>Tablas con Filas Combinadas</h2>
+        <table border="2px" style="margin: 10px;">
+            <tr>
+                <td rowspan="3">Fila1</td>
+                <td>Fila1</td>
+                <td rowspan="3">Fila1</td>
+            </tr>
+            <tr>
+                
+                <td>Fila2</td>
+                
+            </tr>
+            <tr>
+                
+                <td>Fila3</td>
+                
+            </tr>
+        </table>
+    </section>
+    <section>
+        <table border="2px">
+            <tr>
+                <td colspan="3">alfa</td>
+                <td>bravo</td>
+                <td rowspan="2">charlie</td>
+                
+            </tr>
+            <tr>
+                <td>delta</td>
+                <td>echo</td>
+                <td>fostrot</td>
+                <td>golf</td>
+                
+            </tr>
+            <tr>
+                <td>hotel</td>
+                <td colspan="2" rowspan="2">india</td>
+                <td>juliet</td>
+                
+            </tr>
+            <tr>
+                <td>kilo</td>
+                <td>lima</td>
+                
+            </tr>
+            <tr>
+                <td>mike</td>
+                <td>november</td>
+                <td>oscar</td>
+                <td>papa</td>
+                <td>quebec</td>
+            </tr>
+        </table>
+    </section>
+    <br/>
+    <section>
+    <table border="2px">
+        <tr>
+            <td rowspan="18">¿LA RESOLUCIÓN REQUIERE DEL USO DEL SOFTWARE?</td>
+            <td rowspan="9">SI</td>
+            <td rowspan="9">¿Conduce a Conjetura?</td>
+            <td rowspan="3" colspan="2">SI</td>
+            <td rowspan="2">Pide prueba</td>
+            <td>Con ayuda</td>
+            <td>2, 3, 4, 15</td>
+            
+        </tr>
+        <tr>
+            <td>Sin ayuda</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td colspan="2">No pide prueba</td>
+            <td>16.1, 17.1, 17.2, 17.3</td>
+        </tr>
+        <tr>
+            <td rowspan="3" colspan="2">SI/NO</td>
+            <td rowspan="2">Pide prueba</td>
+            <td>Con ayuda</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sin ayuda</td>
+            <td>6, 14</td>
+        </tr>
+        <tr>
+            <td colspan="2">No pide prueba</td>
+            <td>16.2, 16.3</td>
+        </tr>
+        <tr>
+            <td rowspan="3">NO</td>
+            <td rowspan="3">Queda enunciada en la consigna</td>
+            <td rowspan="2">Pide Prueba</td>
+            <td>Con ayuda</td>
+            <td>18, 20</td>
+            
+        </tr>
+        <tr>
+            <td>Sin ayuda</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td colspan="2">No pide prueba</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="9">NO</td>
+            <td rowspan="9" >¿Conduce a Conjetura?</td>
+            <td rowspan="3" colspan="2">SI</td>
+            <td rowspan="2">Pide prueba</td>
+            <td>Con ayuda</td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td>Sin ayuda</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td colspan="2">No pide prueba</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="3" colspan="2">SI/NO</td>
+            <td rowspan="2">Pide prueba</td>
+            <td>Con ayuda</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Sin ayuda</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td colspan="2">No pide prueba</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="3">NO</td>
+            <td rowspan="3">Queda enunciada en la consigna</td>
+            <td rowspan="2">Pide Prueba</td>
+            <td>Con ayuda</td>
+            <td>8, 10</td>
+            
+        </tr>
+        <tr>
+            <td>Sin ayuda</td>
+            <td>9, 19.1, 19.2, 19.3</td>
+        </tr>
+        <tr>
+            <td colspan="2">No pide prueba</td>
+            <td></td>
+        </tr>
+    </table>
+    </section>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/*:nth-child([posición])*/
+/*De todos los li en un mismo nivel y que sean hermanos
+, aplicará el estilo al de la posición 2 */
+li:nth-child(2){
+    color: red;
+}
+li:first-child{
+    color: indigo;
+}
+li:last-child{
+    color: green;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: pink;
+}
+thead{
+    background-color: darksalmon;
+}
+/**/
+
+input:not([type="text"]){
+    border-radius: 10px;
+}
+input[type="text"]{
+    background-color: red;
+}

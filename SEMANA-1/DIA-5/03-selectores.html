@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./03-selectores.css">
+</head>
+<body>
+    <header></header>
+    <h1>Selectores CSS</h1>
+    <main>
+      <section >
+          <h2>Formulario</h2>
+          <fieldset>
+              <legend>Formularios de creación de curso</legend>
+            <form>
+            <table>
+                <tbody>
+                <tr>
+                    <td><label for="nombrecurso">Nombre del Curso</label></td>
+                    <td><input type="text" id="nombrecurso" placeholder="Ejem: Vue JS desde cero" required maxlength="30" minlength="5"/></td>
+                </tr>
+                <tr>
+                    <td><label for="preciocurso">Precio del Curso</label></td>
+                    <td><input type="number" id="preciocurso" placeholder="Precio en soles" min="0" max="300"/></td>
+                </tr>
+                <tr>
+                    <td><label for="fechacurso">Fecha de inicio</label></td>
+                    <td><input type="date" id="fechacurso" value="2020-05-01"/></td>
+                </tr>
+                <tr>
+                    <td><label for="correocurso">Correo de Docente</label></td>
+                    <td><input type="email" id="correocurso" placeholder="Correo corportivo" value="@utec.edu.pe"/></td>
+                </tr>
+                <tr>
+                <td><label for="contraseñacurso">Contraseña del curso</label></td>
+                <td><input type="password" id="contraseñacurso" minlength="6" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Minimo 8 caracteres, una mayuscula, una minuscula y un número"/></td><!--Pattern es el condicional para cumplir en el formularío-->
+                </tr>
+                <tr>
+                    <td><label for="elijeturno">Elige turno</label></td>
+                    <td><label for="radiodia">Mañana</label><input type="radio" name="turno" id="radiodia" checked/>
+                        <label for="radionoche">Noche</label><input type="radio" name="turno" id="radionoche"></td>
+                </tr>
+                <tr>
+                    <td><label for="elijeturno">Tipo de pago</label></td>
+                    <td><label for="pagocuotas">En cuotas</label><input type="radio" name="pago" id="pagocuotas"/>
+                        <label for="pagodirecto">Directo</label><input type="radio" name="pago" id="pagodirecto" checked></td>
+                </tr>
+                <tr>
+                    <td><label >Idiomas del Curso</label></td>
+                    <td>
+                            <label for="idiomaes">Español</label>
+                            <input type="checkbox" id="idiomaes" checked>
+                            <label for="idiomaen">Inglés</label>
+                            <input type="checkbox" id="idiomaen">
+                            <label for="idiomapr">Portugues</label>
+                            <input type="checkbox" id="idiomapr">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="nivelcurso">Nivel del curso</label> </td>
+                    <td>
+                        <select name="" id="nivelcurso">
+                            <option value="">Básico</option>
+                            <option value="">Intermédio</option>
+                            <option value="">Avánzado</option>
+                            <option value="" selected>--Seleccionado</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="descripcurso">Descripción de Curso</label></td>
+                    <td>
+                        <textarea name="descripcurso" id="" cols="20" rows="5" placeholder="Descripcción general del curso"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="videointro">Video Introductorío</label></td>
+                    <td><input type="file" name="" id="videointro" ></td>
+                </tr>
+                <tr>
+                    <td><label for="colorcurso">Color Base del Curso</label></td>
+                    <td><input type="color" id="colorcurso"></td>
+                </tr>
+                </tbody>
+                <tr>
+                    <td><input type="submit" value="Crear curso"></td>
+                    <td><input type="reset" value="Limpiar Formulario"></td>
+                </tr>
+            </table>
+            </form>
+        </fieldset>
+      </section>
+      <section>
+          <h2>Lista de Materiales</h2>
+          <ul>
+              <li>Pc</li>
+              <li>Escritorio</li>
+              <li>Tablet</li>
+          </ul>
+      </section>
+      <section>
+          <h2>Lista de Integrantes</h2>
+          <ul>
+              <li>Integrante 1</li>
+              <li>Integrante 2</li>
+              <li>Integrante 3</li>
+          </ul>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+/*Selector de Etiqueta*/
+/*Todos los label de las página*/
+label{
+    color: teal;
+}
+label{
+    color: tomato;
+}
+/*Compartiendo atributos*/
+h2, h1{                  /*, es un "y"*/
+    color: purple;
+}
+
+/*Selector de hijos a cualquier nivel*/
+/*Todos los hijos, nietos y bisnietos 
+que esten dentro de un ul*/

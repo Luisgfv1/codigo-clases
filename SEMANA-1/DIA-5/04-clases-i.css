@@ -1,0 +1,26 @@
+
+.formulario-personal{
+    background: lightgreen;
+}
+.formulario-personal{
+    background-color: coral;
+}
+/* Los inputs dentro del formularío */
+.formulario-personal input{
+    border-radius: 10px;
+}
+.formulario-externo{
+    background: khaki;
+}
+section{
+    background: lightpink ;
+}
+.subrayada{
+    text-decoration:underline;
+}
+.letra-morada{
+    color: purple;
+}
+#inputgoogle{
+    background-color: grey;
+}

@@ -1,0 +1,48 @@
+/*Importando una fuente externa*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Oswald:wght@200&display=swap');
+/*Importado una fuente local*/
+@font-face{
+    font-family: "harry";
+    src: url("./HARRYP__.TTF");
+}
+body{
+    background-color: #444;
+    color: white;
+}
+.titulo{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.tituloh2{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+}
+.parrafo1{
+    font-family: Arial, Helvetica, sans-serif;
+    /* Tamaño de letra*/
+    /*por defecto es 16px en el 98% de dispositivos*/
+    font-size: 20px;
+    font-weight:800;
+}
+.fuente-harry{
+    font-family: "harry";
+    font-size: 30px;
+}
+.parrafo2{
+    text-align: center;
+    line-height: 40px;
+}
+.interspace{
+    font-family:'Oswald', sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+.subrayado{
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}

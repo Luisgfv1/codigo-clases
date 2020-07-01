@@ -1,0 +1,40 @@
+body{
+    background: #666;
+    color: white;
+}
+.rojo{
+    color: red;
+}
+.amarillo{
+    color: yellow;
+}
+.naranja{
+    color: orange;
+}
+.azulhex{
+    color: #0000ff;
+}
+.violetahex{
+    color: #ff00ff;
+}
+.grisclarohex{
+    color: #ddd;
+}
+.rosadorgb{
+    color: rgb(250, 190, 190);
+}
+.amarillorgb{
+    color: rgb(255, 255, 0);
+}
+.semitransparente{
+    background-color: rgba(150, 186, 100, 0.5);
+}
+.hsl{
+    background-color: hsl(0, 50%, 50%);
+}
+.hsl2{
+    background-color: hsl(0, 50%, 40%);
+}
+.hsl3{
+    background-color: hsl(0, 50%, 30%);
+}

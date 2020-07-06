@@ -15,12 +15,12 @@ body{
     display: inline-block;/* los inline blocks son tratados como caracteres y no se coloca
     altura y anchura*/
     width: 150px;
-    height: 250px;
+    height: 100%;
     background-color: coral;
 }
 .article2{
     display: inline-block;
     width:340px;
-    height:250px;
+    height:100%;
     background-color: teal;
 }

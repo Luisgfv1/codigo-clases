@@ -19,7 +19,7 @@ body{
     height:  520px;
     background-color: whitesmoke;
     box-shadow: #bbb 0px 0px 20px;
-    
+    margin: 50px auto ;
     border-radius: 5px;
     position: relative;
     bottom: 300px;

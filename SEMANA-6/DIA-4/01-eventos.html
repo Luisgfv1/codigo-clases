@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./01-header-flex.css">
+    <link rel="stylesheet" href="" id="linkDark">
+    <title>Document</title>
+    <style>
+        .cuadrado,.cuadrado2, .cuadrado3{
+            width:200px;
+            height:200px;
+            background-color: crimson;
+            margin: 20px auto 0 auto;
+        }
+        .cuadrado2{
+            position: relative;
+            
+        }
+        .sombra{
+            box-shadow: 0px 0px 20px #888;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header__contenedor">
+          <div class="header__logo">
+            <img src="./logo.svg" alt="logo" />
+          </div>
+          <nav class="header__navegacion">
+            <ul class="header__lista">
+              <li class="header__item">
+                <a href="#" class="header__link">Inicio</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Cursos</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Proyectos</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <button id="btnDark"> Estilo Dark</button>
+      <button id="btnLight">Estilo Light</button>
+      <button id="btnToggle" class="btn-toggle">Cambiar Estilo</button>
+      <div id="cuadrado" class="cuadrado"></div>
+      <div id="cuadrado2" class="cuadrado2"></div>
+      <div id="cuadrado3" class="cuadrado3"></div>
+      <script src="./01-eventos.js"></script>
+</body>
+</html>

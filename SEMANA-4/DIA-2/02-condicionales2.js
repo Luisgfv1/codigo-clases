@@ -1,20 +1,33 @@
-//Condicionales
-debugger;
+// Condicionales
+
 let edad = +prompt("Ingrese su edad joven");
-let imc = 0;
-if(edad>17){
-    let peso = +prompt("¿Cuánto pesa joven (Kgs.)?");
-    let altura= +prompt("¿Ingrese su altura joven?");
-    imc=peso/(altura*altura);
-    if(imc>30){
-        console.log('No hay pase laboral #quedateEncasa ');
-        console.log('Está usted en riesgo por excesp de comidita');
-    } else{
-        console.log('Si hay pase laboral');
-    }
-    console.log('Su indice de masa corporal es: ${imc}');
-}else{
-    console.log('No hay pase laboral');
-    console.log('Es usted muy moco');
+let peso = +prompt("¿Cuanto pesa joven (Kgs.)?");
+let altura = +prompt("¿Cuánto mide joven (mts.)?");
+
+let indiceMasaCorporal = 0;
+// let rpta = edad > 17;
+// comparadores ariméticos
+
+// > mayor
+// < menor
+// <= menor o igual
+// >= mayor o igual
+// !== diferente
+// === igual
+
+// comparadores logicos
+
+// Y    :   &&
+// O    :   ||
+// not  :   !
+
+indiceMasaCorporal = peso / (altura * altura);
+
+if (edad > 17 && indiceMasaCorporal <= 30) {
+  console.log(`Sí hay pase laboral 🎉`);
+} else {
+  console.log(`No, no hay pase laboral #quedateEnCasa`);
+  console.log(`Es usted muy moco 😢 o el IMC excede el valor de 30`);
 }
-console.log('Fin del programa, hasta pronto');
+console.log(`Su indice de masa corporal (IMC) es: ${indiceMasaCorporal}`);
+console.log("Fin del programa, hasta pronto! 😷");
